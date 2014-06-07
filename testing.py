@@ -33,26 +33,5 @@ for link in links:
 #if 'href' in dict(links.attrs):
     #print 23
 
-def gettextonly(soup):
-    #print '\n\n'
-    #print soup
-    v=soup.string
-    #print 'string:='
-    #print v
-    if v==None:
-        c=soup.contents
-        #print 'content'
-        #print c
-        resulttext=''
-        for t in c:
-            #print t
-            subtext=gettextonly(t)
-            resulttext+=subtext+'\n'
-        return resulttext
-    else:
-        return v.strip( )
-
-text=gettextonly(soup)
-#print text
 
 
