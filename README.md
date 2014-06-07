@@ -1,4 +1,4 @@
 search-engine
 =============
 
-various phases are explained in README
+This is to understand the features of github :)
