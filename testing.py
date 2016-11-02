@@ -16,6 +16,8 @@ print wi
 
 c=urllib2.urlopen('http://help.websiteos.com/websiteos/example_of_a_simple_html_page.htm')
 
+#remote origin master changed line in middle
+
 #print c.read()
 soup=BeautifulSoup('<a href="/guidadfaes/">Tutorials</a>')             #"<p><i>helo</i></p>"  "<p>Some<b>bad<i>HTML</p>  <p>haha</p>   <p>.</p> haha"
 #soup=BeautifulSoup(c.read( ))
